@@ -4,7 +4,7 @@ A small, dependency-light REST API built with Node.js and Express, following RES
 
 ## Overview
 
-This is the backend counterpart to [Project 1](../decodelabs-project-1) — the responsive portfolio frontend. Project 1's contact form currently hands off to `mailto:`; this API is the real server-side endpoint that form is meant to call: submit a message, and manage submitted messages through a small CRUD surface.
+This is the backend counterpart to [Project 1](https://github.com/AnshParmar123/decodelabs-project-1) — the responsive portfolio frontend. Project 1's contact form submits directly to this API (falling back to `mailto:` only if this server isn't running); this is the real server-side endpoint handling those submissions, plus a small CRUD surface for managing them.
 
 **Resource:** `Contact` — a message submitted through a contact form.
 
